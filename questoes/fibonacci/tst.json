@@ -1,69 +1,69 @@
 {
-    "name": "recursao_sequencia_fibonacci",
-    "label": "Recursividade SequenciaFibonacci",
-    "tags": [
-      "algoritmos_elementares",
-      "recursividade"
-    ],
-    "text": "\n# Recursão na sequência de Fibonacci\n\nImplemente um programa que recebe um inteiro N. Seu programa deve fazer o calculo do n-ésimo termo da sequência de Fibonacci.\n    Formula de Fibonacci.\n      F(0) = 0\n      F(1) = 1\n      F(n) = F(n-1) + F(n-2) , para n > 1\n\n\n*Importante!* Seu programa deve ser recursivo.\n\n## Entrada\n\nSeu programa deve ler da entrada um número inteiro N.\n\n## Saída\n\nSeu programa deve imprimir o resultado do calculo da sequencia de \n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    10\n    55\n    $\n\n\n    $ javac Solution.java; java Solution\n    20\n    6765\n    $\n",
-    "tests": [
-      {
-        "category": "public",
-        "input": "1\n",
-        "output": "1\n"
-      },
-      {
-        "input": "0\n",
-        "output": "0\n"
-      },
-      {
-        "input": "2\n",
-        "output": "1\n"
-      },
-      {
-        "input": "3\n",
-        "output": "2\n",
-        "category": "public"
-      },
-      {
-        "input": "4\n",
-        "output": "3\n"
-      },
-      {
-        "input": "5\n",
-        "output": "5\n"
-      },
-      {
-        "input": "6\n",
-        "output": "8\n"
-      },
-      {
-        "input": "7\n",
-        "output": "13\n"
-      },
-      {
-        "input": "8\n",
-        "output": "21\n"
-      },
-      {
-        "input": "9\n",
-        "output": "34\n"
-      },
-      {
-        "input": "10\n",
-        "output": "55\n"
-      },
-      {
-        "input": "20\n",
-        "output": "6765\n"
-      },
-      {
-        "input": "30\n",
-        "output": "832040\n"
-      },
-      {
-        "input": "40\n",
-        "output": "102334155\n"
-      }
-    ]
-  }
+  "name": "fibonacci",
+  "label": "Fibonacci",
+  "tags": [
+    "algoritmos_elementares",
+    "recursividade"
+  ],
+  "text": "\n# Fibonacci\n\nImplemente um programa que recebe um inteiro N. Seu programa deve fazer o calculo do n-ésimo termo da sequência de Fibonacci.\n    Fórmula de Fibonacci.\n      F(0) = 0\n      F(1) = 1\n      F(n) = F(n-1) + F(n-2) , para n > 1\n\n\n*Importante!* Seu programa deve ser recursivo.\n\n## Entrada\n\nSeu programa deve ler da entrada um número inteiro N.\n\n## Saída\n\nSeu programa deve imprimir o resultado do calculo da sequencia de Fibonacci. \n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    10\n    55\n    $\n\n\n    $ javac Solution.java; java Solution\n    20\n    6765\n    $\n",
+  "tests": [
+    {
+      "category": "public",
+      "input": "1\n",
+      "output": "1\n"
+    },
+    {
+      "input": "0\n",
+      "output": "0\n"
+    },
+    {
+      "input": "2\n",
+      "output": "1\n"
+    },
+    {
+      "input": "3\n",
+      "output": "2\n",
+      "category": "public"
+    },
+    {
+      "input": "4\n",
+      "output": "3\n"
+    },
+    {
+      "input": "5\n",
+      "output": "5\n"
+    },
+    {
+      "input": "6\n",
+      "output": "8\n"
+    },
+    {
+      "input": "7\n",
+      "output": "13\n"
+    },
+    {
+      "input": "8\n",
+      "output": "21\n"
+    },
+    {
+      "input": "9\n",
+      "output": "34\n"
+    },
+    {
+      "input": "10\n",
+      "output": "55\n"
+    },
+    {
+      "input": "20\n",
+      "output": "6765\n"
+    },
+    {
+      "input": "30\n",
+      "output": "832040\n"
+    },
+    {
+      "input": "40\n",
+      "output": "102334155\n"
+    }
+  ]
+}

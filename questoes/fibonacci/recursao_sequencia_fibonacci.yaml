@@ -1,12 +1,12 @@
-name: recursao_sequencia_fibonacci
-label: Recursividade SequenciaFibonacci
+name: fibonacci
+label: Fibonacci
 tags: [algoritmos_elementares, recursividade]
 text: |
 
-  # Recursão na sequência de Fibonacci
+  # Fibonacci
 
   Implemente um programa que recebe um inteiro N. Seu programa deve fazer o calculo do n-ésimo termo da sequência de Fibonacci.
-      Formula de Fibonacci.
+      Fórmula de Fibonacci.
         F(0) = 0
         F(1) = 1
         F(n) = F(n-1) + F(n-2) , para n > 1
@@ -20,7 +20,7 @@ text: |
 
   ## Saída
 
-  Seu programa deve imprimir o resultado do calculo da sequencia de 
+  Seu programa deve imprimir o resultado do calculo da sequencia de Fibonacci. 
 
   ## Exemplo de execução
 
