@@ -1,22 +1,22 @@
-name: potenciação
+name: potenciacao_recursiva
 label: Potenciação
 tags: [algoritmos_elementares, recursividade]
 text: |
 
     # Potenciação
 
-    Escreva o método recursivo pot que eleva um número inteiro positivo n a uma potência inteira positiva a.
+    Escreva o método recursivo  pot(n, a)  que eleva um número inteiro positivo n a uma potência inteira positiva a.
 
     *Importante!* Seu programa deve ser recursivo.
 
     ## Entrada
 
-    Seu programa deve ler da entrada duas linhas: a primeira é linha contendo um inteiro "n", enquanto a segunda é um inteiro "a" 
-    representando a potência inteira positiva.
+    Seu programa deve ler da entrada duas linhas: a primeira é uma linha contendo um inteiro positivo "n" representando a base, enquanto a segunda é um inteiro positivo "a" 
+    representando o expoente.
 
     ## Saída
 
-    Seu programa deve imprimir o resultado de "n" elevado a "a"
+    Seu programa deve imprimir o resultado da base "n" elevada ao expoente "a".
 
     ## Exemplo de execução
     

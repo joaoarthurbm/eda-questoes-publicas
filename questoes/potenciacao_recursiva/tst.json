@@ -1,11 +1,11 @@
 {
-   "name": "potenciação",
+   "name": "potenciacao_recursiva",
    "label": "Potenciação",
    "tags": [
       "algoritmos_elementares",
       "recursividade"
    ],
-   "text": "\n# Potenciação\n\nEscreva o método recursivo pot que eleva um número inteiro positivo n a uma potência inteira positiva a.\n\n*Importante!* Seu programa deve ser recursivo.\n\n## Entrada\n\nSeu programa deve ler da entrada duas linhas: a primeira é linha contendo um inteiro \"n\", enquanto a segunda é um inteiro \"a\" \nrepresentando a potência inteira positiva.\n\n## Saída\n\nSeu programa deve imprimir o resultado de \"n\" elevado a \"a\"\n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    2\n    3\n    8\n    $\n\n    $ javac Solution.java; java Solution\n    5\n    2\n    25 \n    $\n\n\n## Restrições\n\nSeu programa deve ser recursivo.\n",
+   "text": "\n# Potenciação\n\nEscreva o método recursivo  pot(n, a)  que eleva um número inteiro positivo n a uma potência inteira positiva a.\n\n*Importante!* Seu programa deve ser recursivo.\n\n## Entrada\n\nSeu programa deve ler da entrada duas linhas: a primeira é uma linha contendo um inteiro positivo \"n\" representando a base, enquanto a segunda é um inteiro positivo \"a\" \nrepresentando o expoente.\n\n## Saída\n\nSeu programa deve imprimir o resultado da base \"n\" elevada ao expoente \"a\".\n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    2\n    3\n    8\n    $\n\n    $ javac Solution.java; java Solution\n    5\n    2\n    25 \n    $\n\n\n## Restrições\n\nSeu programa deve ser recursivo.\n",
    "tests": [
       {
          "category": "public",
@@ -34,8 +34,8 @@
          "output": "10000\n"
       },
       {
-         "input": "9\n3\n",
-         "output": "729\n"
+         "input": "100\n5\n",
+         "output": "10000000000\n"
       }
    ]
 }
