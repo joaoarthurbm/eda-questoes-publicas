@@ -2,7 +2,7 @@
 
 Para criar questões para o tst-eda, você deve seguir os passos abaixo:
 
-* Criar o conteúdo e testes da questão. Isso é feito através de um arquivo yaml com um formato muito bem definido. Veja [aqui ] um exemplo. Seu arquivo
+* Criar o conteúdo e testes da questão. Isso é feito através de um arquivo yaml com um formato muito bem definido. Veja [busca_binaria_recursiva.yaml https://github.com/joaoarthurbm/eda-questoes-publicas/blob/main/exemplos/busca_binaria_recursiva.yaml] como um exemplo. Seu arquivo
 deve ser nomeado com um bom identificador para a questão. Por exemplo, `fatorial_recursivo.yaml`.
 
 * Criar uma solução para a questão que você criou e que, naturalmente, passe nos testes que você criou. Seu arquivo java não pode ter classe pública e a primeira 
