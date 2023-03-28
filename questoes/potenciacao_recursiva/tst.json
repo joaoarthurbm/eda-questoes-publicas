@@ -1,0 +1,41 @@
+{
+   "name": "potenciacao_recursiva",
+   "label": "Potenciação",
+   "tags": [
+      "algoritmos_elementares",
+      "recursividade"
+   ],
+   "text": "\n# Potenciação\n\nEscreva o método recursivo  pot(n, a)  que eleva um número inteiro positivo n a uma potência inteira positiva a.\n\n*Importante!* Seu programa deve ser recursivo.\n\n## Entrada\n\nSeu programa deve ler da entrada duas linhas: a primeira é uma linha contendo um inteiro positivo \"n\" representando a base, enquanto a segunda é um inteiro positivo \"a\" \nrepresentando o expoente.\n\n## Saída\n\nSeu programa deve imprimir o resultado da base \"n\" elevada ao expoente \"a\".\n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    2\n    3\n    8\n    $\n\n    $ javac Solution.java; java Solution\n    5\n    2\n    25 \n    $\n\n\n## Restrições\n\nSeu programa deve ser recursivo.\n",
+   "tests": [
+      {
+         "category": "public",
+         "input": "2\n4\n",
+         "output": "16\n"
+      },
+      {
+         "input": "4\n5\n",
+         "output": "1024\n",
+         "category": "public"
+      },
+      {
+         "input": "3\n5\n",
+         "output": "243\n"
+      },
+      {
+         "input": "1\n1000\n",
+         "output": "1\n"
+      },
+      {
+         "input": "4\n0\n",
+         "output": "1\n"
+      },
+      {
+         "input": "10\n4\n",
+         "output": "10000\n"
+      },
+      {
+         "input": "100\n5\n",
+         "output": "10000000000\n"
+      }
+   ]
+}
