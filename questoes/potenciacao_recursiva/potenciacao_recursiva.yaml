@@ -1,0 +1,77 @@
+name: potenciação
+label: Potenciação
+tags: [algoritmos_elementares, recursividade]
+text: |
+
+    # Potenciação
+
+    Escreva o método recursivo pot que eleva um número inteiro positivo n a uma potência inteira positiva a.
+
+    *Importante!* Seu programa deve ser recursivo.
+
+    ## Entrada
+
+    Seu programa deve ler da entrada duas linhas: a primeira é linha contendo um inteiro "n", enquanto a segunda é um inteiro "a" 
+    representando a potência inteira positiva.
+
+    ## Saída
+
+    Seu programa deve imprimir o resultado de "n" elevado a "a"
+
+    ## Exemplo de execução
+    
+        $ javac Solution.java; java Solution
+        2
+        3
+        8
+        $
+
+        $ javac Solution.java; java Solution
+        5
+        2
+        25 
+        $
+
+
+    ## Restrições
+
+    Seu programa deve ser recursivo.
+    
+tests:
+-   category: public
+    input: |
+        2
+        4
+    output: |
+        16
+-   input: |
+        4
+        5
+    output: |
+        1024
+    category: public
+-   input: |
+        3
+        5
+    output: |
+        243
+-   input: |
+        1
+        1000
+    output: |
+        1
+-   input: |
+        4
+        0
+    output: |
+        1
+-   input: |
+        10
+        4
+    output: |
+        10000
+-   input: |
+        100
+        5
+    output: |
+        10000000000
