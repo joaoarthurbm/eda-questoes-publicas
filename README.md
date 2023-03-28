@@ -16,4 +16,16 @@ json deve ser necessariamente tst.json
 
 Para saber se está tudo certo e você pode fazer o PR, execute ```python jtst.py Solution.java```. 
 
-**Importante.** Só funciona para python2.
+**Importante.** Só funciona para **python2.
+
+
+# Regras para o Pull Request
+
+Você deve e só deve submeter **1 diretório e 3 arquivos dentro desse diretório**.
+
+Vamos supor que sua questão se chame **fatorial**. Nesse caso, você deveria criar um diretório `fatorial` dentro do diretório `questoes`. Dentro dele, você deve incluir apenas 3 arquivos:  
+ * fatorial.yaml.  Veja que este arquivo deve ter o mesmo nome do diretório, mas com a terminação yaml.
+ * tst.json
+ * Solucao.java
+ 
+ Pronto. Se seu código obedece essas regras, pode fazer o PR. Lembrando que para testar se sua questão está funcionando, você deve executar ```python jtst.py Solution.java``` no diretório da sua questão e sua solução deve passar nos testes.
