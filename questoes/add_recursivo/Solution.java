@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
 
     public static int somaRecursiva(int x, int y) {
         if (y == 0) {
