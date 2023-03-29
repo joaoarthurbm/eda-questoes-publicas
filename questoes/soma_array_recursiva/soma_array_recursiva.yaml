@@ -1,0 +1,69 @@
+name: soma_array_recursiva
+label: Soma Array Recursiva
+tags: [algoritmos_elementares, arrays, recursividade, recursivo]
+text: |
+
+    # Soma Array Recursiva
+
+    Implemente um programa que leia uma sequência de inteiros e calcule a soma dos elementos do array.
+
+    *Importante!* Seu programa deve ser recursivo.
+
+    ## Entrada
+
+    Seu programa deve ler da entrada uma linha contendo uma sequência de inteiros separados por espaço.
+
+    ## Saída
+
+    Seu programa deve imprimir a soma dos elementos da sequência. 
+
+    ## Exemplo de execução
+    
+        $ javac Solution.java; java Solution
+        3 5 8 10 12 18 20
+        76
+        $
+
+
+        $ javac Solution.java; java Solution
+        3 5 8 10 12 18
+        56
+        $
+
+
+    ## Restrições
+
+    Você não pode usar coleção ou método algum do Collections framework. Sua 
+    implementação deve ser baseada em arrays.
+    
+tests:
+-   category: public
+    input: |
+        3 5 8 10 12 18 20
+    output: |
+        76
+-   input: |
+        3 5 8 10 12 18
+    output: |
+        56
+    category: public
+-   input: |
+        1 1 1
+    output: |
+        3
+-   input: |
+        0 1 2 3 4 5 6 7 8 9 10
+    output: |
+        55
+-   input: |
+        -1 -2 -3 -4 -5
+    output: |
+        -15
+-   input: |
+        -1 0 1
+    output: |
+        0
+-   input: |
+        5 4 3 2 1
+    output: |
+        15
