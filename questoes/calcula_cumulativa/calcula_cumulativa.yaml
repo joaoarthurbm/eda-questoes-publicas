@@ -8,11 +8,11 @@ text: |
     Em análise de dados é muito comum ter que saber quantos valores menores ou iguais a um determinado valor estão presentes em um conjunto. Esse cálculo se chama cumulativa.
     Por exemplo, quando estamos analisando a população brasileira, uma pergunta importante para o censo é: quantas pessoas têm 5 ou menos anos? 20 ou menos? E assim por diante.
 
-    Eu quero ser capaz de encontrar o número de valores menores ou iguais a qualquer valor presente no array sem ter que ser O(n) em todas as execuções.
-    Portanto, uma solução é fazer algumas computações e construir outro array de forma que, uma vez construído esse array, essa informação possa ser recuperada em O(1).
+    Eu quero ser capaz de encontrar o número de valores menores ou iguais a qualquer valor presente no array sem ter que ser $O(n)$ em todas as execuções.
+    Portanto, uma solução é fazer algumas computações e construir outro array de forma que, uma vez construído esse array, essa informação possa ser recuperada em $O(1)$.
 
-    Implemente o método static int[] calculaCumulativa(int[] idades)
-    que recebe um array de inteiros onde cada valor representa a idade de uma pessoa e retorna um array de inteiros em que eu possa consultar em O(1) quantas pessoas tem idade menor ou igual a um determinado valor que eu escolher.
+    Implemente o método ``static int[] calculaCumulativa(int[] idades)``
+    que recebe um array de inteiros onde cada valor representa a idade de uma pessoa e retorna um array de inteiros em que eu possa consultar em $O(1)$ quantas pessoas tem idade menor ou igual a um determinado valor que eu escolher.
 
     *Importante:* Assuma que a pessoa mais velha do Brasil tem 130 anos.
     
@@ -25,7 +25,7 @@ text: |
     ## Saída
     
     Seu programa deve imprimir o array cumulativo.
-    Dica: Use Arrays.toString() para formatar a saída.
+    Dica: Use ``Arrays.toString()`` para formatar a saída.
     
     ## Exemplos
     
