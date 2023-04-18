@@ -2,10 +2,8 @@
   "name": "primeiro_candidato",
   "label": "Primeiro Candidato",
   "tags": [
-    "sort",
-    "arrays",
-    "ordenacao",
-    "strings"
+    "busca",
+    "arrays"
   ],
   "text": "\n# Primeiro Candidato\n\nClara tem se preocupado muito com a complexidade dos algoritmos que escreve depois de assistir as primeiras aulas de Estruturas de Dados.Certa vez, sua colega mostrou a implementação de um algoritmo de busca $O(n)$ para encontrar o primeiro candidato com nota 700 no ENEM.\nComo Clara sabe que o INEP sempre divulga as notas ordenadas de forma crescente, ela identificou que dá para implementar um algoritmo de busca mais veloz. Implemente esse algoritmo e use o método da árvore de recursão para demonstrar sua classe de complexidade.\n\n*Importante:* sua solução deve ser mais rápida que $O(n)$.  \n\n## Entrada\n\nSeu programa deve ler uma linha contendo uma sequências de numeros crescentes\n\n## Saída\n\nSeu programa deve imprimir o caminho percorrido até encontrar o primeiro valor 700 do array Se existir, se não continue até o final. O caminho deve ser indicado por nível, índice e valor percorrido.\nCaso tenha mais de um valor 700, continue a busca normalmente até encontrar o primeiro.\n\n## Exemplos\n\n    javac Solucao.java; java Solucao\n    700 700 800\n    Nivel 0: indice 1, valor 700\n    Nivel 1: indice 0, valor 700\n\n    javac Solucao.java; java Solucao\n    100 200 300 400 500\n    Nivel 0: indice 2, valor 300\n    Nivel 1: indice 3, valor 400\n    Nivel 2: indice 4, valor 500\n    \n",
   "tests": [
