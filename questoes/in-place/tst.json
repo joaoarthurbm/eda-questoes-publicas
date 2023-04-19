@@ -1,0 +1,30 @@
+{
+  "name": "in-place",
+  "label": "In-Place",
+  "tags": [
+    "sort",
+    "arrays",
+    "ordenacao"
+  ],
+  "text": "\n# In-Place\n\nUma pessoa encontrou no chão uma ficha numerada para pegar brinde em uma loja. Quando chegou na loja, percebeu que havia muita gente e estavam todos enfileirados, mas sem respeitar a ordem das fichas.\nEla precisava entrar na sua posição, mantendo as fichas menores atrás e as maiores na frente, mas sem se importar com a ordenação das mesmas. Implemente um método in-place que recebe um array não ordenado de fichas inteiras e posicione a ficha dessa pessoa no lugar.\n\n*Importante:* Considere que a ficha dela está no índice 0 do array.\n\n## Entrada\n\nSeu programa deve ler uma linha, contendo uma sequências de inteiros separadas por espaços, que representam as fichas.\n\n## Saída\n\nSeu programa deve imprimir cada troca realizada.\nDica: Use ``Arrays.toString()`` para formatar a saída.\n\n\n## Exemplos\n\n    javac Solucao.java; java Solucao\n    3 5 2 1 4\n    [3, 2, 5, 1, 4]\n    [3, 2, 1, 5, 4]\n    [1, 2, 3, 5, 4]\n\n    javac Solucao.java; java Solucao\n    4 2 5 1 4\n    [4, 2, 5, 1, 4]\n    [4, 2, 1, 5, 4]\n    [1, 2, 4, 5, 4]\n",
+  "tests": [
+    {
+      "category": "public",
+      "input": "3 5 2 1 4\n",
+      "output": "[3, 2, 5, 1, 4]\n[3, 2, 1, 5, 4]\n[1, 2, 3, 5, 4]\n"
+    },
+    {
+      "category": "public",
+      "input": "4 2 5 1 4\n",
+      "output": "[4, 2, 5, 1, 4]\n[4, 2, 1, 5, 4]\n[1, 2, 4, 5, 4]\n"
+    },
+    {
+      "input": "3 8 7 10 0 23 2 1 77 7\n",
+      "output": "[3, 0, 7, 10, 8, 23, 2, 1, 77, 7]\n[3, 0, 2, 10, 8, 23, 7, 1, 77, 7]\n[3, 0, 2, 1, 8, 23, 7, 10, 77, 7]\n[1, 0, 2, 3, 8, 23, 7, 10, 77, 7]\n"
+    },
+    {
+      "input": "9 7 5 11 12 2 14 3 10 6\n",
+      "output": "[9, 7, 5, 11, 12, 2, 14, 3, 10, 6]\n[9, 7, 5, 11, 12, 2, 14, 3, 10, 6]\n[9, 7, 5, 2, 12, 11, 14, 3, 10, 6]\n[9, 7, 5, 2, 3, 11, 14, 12, 10, 6]\n[9, 7, 5, 2, 3, 6, 14, 12, 10, 11]\n[6, 7, 5, 2, 3, 9, 14, 12, 10, 11]\n"
+    }
+  ]
+}
