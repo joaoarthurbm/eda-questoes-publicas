@@ -8,7 +8,7 @@ text: |
     Implemente um programa que leia uma sequência de inteiros distintos e um número N, então verifique se N 
     está na sequência lida.
 
-    *Importante!* Seu programa deve ser recursivo e sequência não deve conter números repetidos.
+    *Importante!* Seu programa deve ser recursivo
 
     ## Entrada
 
@@ -18,7 +18,7 @@ text: |
 
     ## Saída
 
-    Seu programa deve imprimir o índice do número N. 
+    Seu programa deve imprimir o índice da primeira ocorrência do número N. 
     Caso não encontre N, deve imprimir -1. 
 
     ## Exemplo de execução
