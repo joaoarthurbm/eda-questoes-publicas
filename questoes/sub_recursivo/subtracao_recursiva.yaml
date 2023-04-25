@@ -7,7 +7,7 @@ text: |
   # Subtracao Recursiva 
 
 
-  Escreva um método recursivo  subtract(a,b)  que subtraia dois elementos inteiros positivos.
+  Escreva um método recursivo   `subtract(a,b)`  que subtraia dois números inteiros positivos usando recursão.
 
 
   *Importante!* Seu programa deve ser recursivo.
@@ -16,7 +16,7 @@ text: |
   ## Entrada
 
 
-  Seu programa deve ler da entrada: dois numeros inteiros positivos.
+  Seu programa deve ler da entrada dois numeros inteiros positivos, que representam os valores a serem subtraidos.
 
 
   ## Saída
