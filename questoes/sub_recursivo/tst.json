@@ -6,7 +6,7 @@
       "recursividade",
       "algoritmos elementares"
   ],
-  "text": "\n# Subtracao Recursiva \n\n\nEscreva um método recursivo  subtract(a,b)  que subtraia dois elementos inteiros positivos.\n\n\n*Importante!* Seu programa deve ser recursivo.\n\n\n## Entrada\n\n\nSeu programa deve ler da entrada: dois numeros inteiros positivos.\n\n\n## Saída\n\n\nSeu programa deve imprimir o valor da subtracao do primeiro numero pelo segundo numero.\n\n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    10 4\n    6\n    $\n\n\n    $ javac Solution.java; java Solution\n    2 7\n    -5\n    $\n## Restrições\nSeu programa deve, obrigatoriamente, utilizar recursão.\n",  
+  "text": "\n# Subtracao Recursiva \n\n\n Escreva um método recursivo   `subtract(a,b)`  que subtraia dois números inteiros positivos usando recursão.\n\n\n*Importante!* Seu programa deve ser recursivo.\n\n\n## Entrada\n\n\nSeu programa deve ler da entrada dois numeros inteiros positivos, que representam os valores a serem subtraidos.\n\n\n## Saída\n\n\nSeu programa deve imprimir o valor da subtracao do primeiro numero pelo segundo numero.\n\n\n## Exemplo de execução\n\n    $ javac Solution.java; java Solution\n    10 4\n    6\n    $\n\n\n    $ javac Solution.java; java Solution\n    2 7\n    -5\n    $\n## Restrições\nSeu programa deve, obrigatoriamente, utilizar recursão.\n",  
   "tests": [
       {
           "category": "public",
