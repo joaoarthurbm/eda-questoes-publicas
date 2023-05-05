@@ -1,0 +1,37 @@
+{
+  "name": "limite_linked_list_recursivo",
+  "label": "Limite LinkedList Recursivo",
+  "tags": [
+    "linkedlist",
+    "recursividade"
+  ],
+  "text": "\n# Índice Do Limite De Soma Em LinkedList De Forma Recursiva\n\nDada uma lista encadeada (duplamente) de inteiros, retornar o índice do elemento que faz com que a soma cumulativa dos anteriores ultrapasse um determinado valor passado como parâmetro\n\n*Importante:* Tem que ser recursivo\n\n## Entrada\n\nSeu programa deve ler duas linha, a primeira contendo uma sequência de inteiros separadas por espaços.\nA segunda linha representa um inteiro, nosso limite.\n\n## Saída\n\nSeu programa deve retornar o indice no numero que ultrapassou o limite da soma.\nImportante: Se não ultrapassar em nenhum momento, retornar -1.\n\n\n## Exemplos\n\n    javac Solucao.java; java Solucao\n    2 4 5 1 19 3\n    7\n    2\n\n    javac Solucao.java; java Solucao\n    7 4 -2 1 5\n    15\n    5\n",
+  "tests": [
+    {
+      "category": "public",
+      "input": "2 4 5 1 19 3\n7\n",
+      "output": "2\n"
+    },
+    {
+      "category": "public",
+      "input": "7 4 -2 1 5 3 7\n15\n",
+      "output": "5\n"
+    },
+    {
+      "input": "5 5 5 5 5\n30\n",
+      "output": "-1\n"
+    },
+    {
+      "input": "5 3 -3\n3\n",
+      "output": "0\n"
+    },
+    {
+      "input": "2 -4 -5\n10\n",
+      "output": "-1\n"
+    },
+    {
+      "input": "5 7 3\n15\n",
+      "output": "-1\n"
+    }
+  ]
+}
